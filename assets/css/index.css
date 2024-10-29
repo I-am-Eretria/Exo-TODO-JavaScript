@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #403541;
+}
+
+#wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 50px;
+}
+
+h1{
+    color: white;
+}
+
+#count{
+    color: #F0EC8B;
+    margin: 10px;
+    font-weight: bold;
+}
+
+button{
+    color: #2B2726;
+    font-weight: bold;
+}
+
+#todo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#btn{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+#todoCards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: center;
+    justify-content: center;
+}
+
+.todoCard{
+    background-color: #F0EC8B;
+    color: #2B2726;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    max-width: fit-content;
+}
+
+.task{
+    background: none;
+    border: none;
+    resize: none;
+}
+
